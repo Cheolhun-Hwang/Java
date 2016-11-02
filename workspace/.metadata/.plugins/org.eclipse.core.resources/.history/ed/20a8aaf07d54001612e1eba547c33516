@@ -1,0 +1,45 @@
+/**
+ * 파일명 : Crolling.java
+ * 작성일 : 2016. 7. 27.
+ * 파일설명 :
+ */
+package Text;
+
+import java.io.*;
+import java.net.*;
+
+public class Crolling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+	          //example.com은 연습으로 사용하기 위한 페이지이다. 간단한 페이지로 소스코드의 양도 적다.
+	            String urlstr = "http://blog.naver.com/PostView.nhn?blogId=qewqsa&logNo=220694221464&redirect=Dlog&widgetTypeCall=true&topReferer=http%3A%2F%2Fblog.naver.com%2FPostList.nhn%3FblogId%3Dqewqsa%26widgetTypeCall%3Dtrue%26topReferer%3Dhttp%253A%252F%252Fsection.blog.naver.com%252FSectionMain.nhn";
+	            //URL 문자열을 처리하기 위해 URL클래스를 이용한다.
+	            URL url = new URL(urlstr);
+
+	            //소스코드를 가져오기 위한 스트림을 선언한다.
+	            BufferedReader bf;
+	            String line;
+	            String full_line = "";
+
+	      //URL클래스의 openStream()함수로 지정한 웹주소의 소스코드를 받아올 수 있다.
+	            bf = new BufferedReader(new InputStreamReader(url.openStream(), "EUC-KR"));
+	            while((line=bf.readLine())!=null){
+	            	full_line += line;
+	            }
+	            int postviewarea_line_find = full_line.indexOf("postViewArea");
+            	String subline = full_line.substring(postviewarea_line_find);
+            	int div_line = subline.indexOf("</div>") ;
+            	String cp_subline = subline.substring(0, div_line);
+	            
+            	System.out.println(cp_subline);
+
+	            //스트림을 닫아준다.
+	            bf.close();
+	        }catch(Exception e){
+	            System.out.println(e.getMessage());
+	        }
+	}
+
+}

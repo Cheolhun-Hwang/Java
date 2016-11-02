@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="23" version="2.0">
+<workbenchAdvisor/>
+<window height="750" maximized="true" width="659" x="49" y="18">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="276" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1477534950239" focus="true" label="Workspace - Resource">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="KeyPad.java" partName="KeyPad.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/KeyPad.java" title="KeyPad.java" tooltip="Java_Uni/src/Event_Class/KeyPad.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/KeyPad.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="887" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Puzzle.java" partName="Puzzle.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/Puzzle.java" title="Puzzle.java" tooltip="Java_Uni/src/Event_Class/Puzzle.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/Puzzle.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2463" selectionTopPixel="1168"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RockPaperScissor.java" partName="RockPaperScissor.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/RockPaperScissor.java" title="RockPaperScissor.java" tooltip="Java_Uni/src/Event_Class/RockPaperScissor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/RockPaperScissor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1518" selectionTopPixel="1538"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarGameTest.java" partName="CarGameTest.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/CarGameTest.java" title="CarGameTest.java" tooltip="Java_Uni/src/Event_Class/CarGameTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/CarGameTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="299" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyFrame.java" partName="MyFrame.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/MyFrame.java" title="MyFrame.java" tooltip="Java_Uni/src/Event_Class/MyFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/MyFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="122" selectionOffset="1662" selectionTopPixel="896"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MouseEventTest.java" partName="MouseEventTest.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/MouseEventTest.java" title="MouseEventTest.java" tooltip="Java_Uni/src/Event_Class/MouseEventTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/MouseEventTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1736" selectionTopPixel="1538"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Scribble.java" partName="Scribble.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/Scribble.java" title="Scribble.java" tooltip="Java_Uni/src/Event_Class/Scribble.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/Scribble.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1270" selectionTopPixel="1097"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CounterTest.java" partName="CounterTest.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/CounterTest.java" title="CounterTest.java" tooltip="Java_Uni/src/Event_Class/CounterTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/CounterTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="806" selectionTopPixel="371"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SlotMachine.java" partName="SlotMachine.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/SlotMachine.java" title="SlotMachine.java" tooltip="Java_Uni/src/Event_Class/SlotMachine.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/SlotMachine.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1419" selectionTopPixel="971"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tic_Tac_Toe.java" partName="Tic_Tac_Toe.java" path="/home/hch/workspace/Java_Uni/src/Event_Class/Tic_Tac_Toe.java" title="Tic_Tac_Toe.java" tooltip="Java_Uni/src/Event_Class/Tic_Tac_Toe.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java_Uni/src/Event_Class/Tic_Tac_Toe.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1114" selectionTopPixel="688"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="250" org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="539" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.priorityField="25" org.eclipse.ui.ide.resourceField="75"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.30246913" ratioLeft="196" ratioRight="452" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6594427" ratioLeft="426" ratioRight="220" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="323" ratioRight="323" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.749427" ratioLeft="981" ratioRight="328" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7496296" ratioLeft="506" ratioRight="169" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4486166" ratioLeft="227" ratioRight="279" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.749427" ratioLeft="981" ratioRight="328" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49961802" ratioLeft="654" ratioRight="655" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java_Uni/src/Event_Class/SlotMachine.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java_Uni/src/Event_Class/Tic_Tac_Toe.java"/>
+</editors>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1180" y="0"/>
+</item>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1188" y="0"/>
+</item>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1209" y="0"/>
+</item>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1231" y="0"/>
+</item>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1255" y="0"/>
+</item>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1258" y="0"/>
+</item>
+<item historyLabel="SlotMachine.java" index="0">
+<position info="not_deleted" x="1419" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="349" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="351" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="379" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="388" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="390" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="410" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="413" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="439" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="480" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="569" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="569" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="596" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="623" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="639" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="642" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="661" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="660" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="758" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="754" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="757" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="892" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="917" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1004" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="953" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="956" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="970" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="973" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1004" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1026" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1025" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1076" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1079" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1132" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1130" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1327" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1407" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="1453" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="895" y="0"/>
+</item>
+<item historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="915" y="0"/>
+</item>
+<item active="true" historyLabel="Tic_Tac_Toe.java" index="1">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tic_Tac_Toe.java" tooltip="Java_Uni/src/Event_Class/Tic_Tac_Toe.java">
+<persistable path="/Java_Uni/src/Event_Class/Tic_Tac_Toe.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SlotMachine.java" tooltip="Java_Uni/src/Event_Class/SlotMachine.java">
+<persistable path="/Java_Uni/src/Event_Class/SlotMachine.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CounterTest.java" tooltip="Java_Uni/src/Event_Class/CounterTest.java">
+<persistable path="/Java_Uni/src/Event_Class/CounterTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Scribble.java" tooltip="Java_Uni/src/Event_Class/Scribble.java">
+<persistable path="/Java_Uni/src/Event_Class/Scribble.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MouseEventTest.java" tooltip="Java_Uni/src/Event_Class/MouseEventTest.java">
+<persistable path="/Java_Uni/src/Event_Class/MouseEventTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyFrame.java" tooltip="Java_Uni/src/Event_Class/MyFrame.java">
+<persistable path="/Java_Uni/src/Event_Class/MyFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="paxing.java" tooltip="Paxing/src/Big_paxing/paxing.java">
+<persistable path="/Paxing/src/Big_paxing/paxing.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarGameTest.java" tooltip="Java_Uni/src/Event_Class/CarGameTest.java">
+<persistable path="/Java_Uni/src/Event_Class/CarGameTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarGameTest.java" tooltip="Java_Uni/src/CarGameTest.java">
+<persistable path="/Java_Uni/src/CarGameTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RockPaperScissor.java" tooltip="Java_Uni/src/Event_Class/RockPaperScissor.java">
+<persistable path="/Java_Uni/src/Event_Class/RockPaperScissor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Puzzle.java" tooltip="Java_Uni/src/Event_Class/Puzzle.java">
+<persistable path="/Java_Uni/src/Event_Class/Puzzle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="KeyPad.java" tooltip="Java_Uni/src/Event_Class/KeyPad.java">
+<persistable path="/Java_Uni/src/Event_Class/KeyPad.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action_DividClass.java" tooltip="Java_Uni/src/Event_Class/Action_DividClass.java">
+<persistable path="/Java_Uni/src/Event_Class/Action_DividClass.java"/>
+</file>
+</mruList>
+</workbench>

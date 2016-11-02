@@ -1,0 +1,48 @@
+/**
+ * 파일명 : Split_practice1.java
+ * 작성일 : 2016. 7. 26.
+ * 파일설명 :
+ */
+package Text;
+
+public class Split_practice1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String txt1 = "가나다라";
+		String txt2 = "해당 내용은테스트입니다.";
+		String txt3 = "가격은 29,000원입니다.";
+		//////////////////////////////
+		//indexOf 를 이용한 방법
+		int index = txt2.indexOf("테스트");
+		if( index > -1){
+			String find_txt = txt2.substring(0, index);
+			String split_txt[] = find_txt.split(" ");
+			System.out.println(find_txt);
+			int i = split_txt.length;
+			System.out.println(i);
+			System.out.println(split_txt[i-1]);
+		}else{
+			System.out.println("존재하지 않음!");
+		}
+		////////////////////////////////
+		//matches 를 이용한 방법
+		if(txt2.matches(".*테스트.*")){
+			System.out.println("존재!");
+		}else{
+			System.out.println("존재하지 않음!");
+		}
+		
+		
+		//matches 를 이용하여 정규 표현식으로 문자열에 숫자가 있는지 확인
+		if(txt3.matches(".*[0-9].*")){
+			System.out.println("숫자 존재!");
+		}else{
+			System.out.println("숫자 존재하지 않음!");
+		}
+	}
+
+}

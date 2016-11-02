@@ -1,0 +1,1 @@
+Damagochi.o: ../Damagochi.c

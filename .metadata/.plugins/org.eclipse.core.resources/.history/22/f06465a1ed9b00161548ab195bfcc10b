@@ -1,0 +1,17 @@
+package Event_Class;
+
+class MyListener implements ActionListner{
+	
+}
+
+public class Action_DividClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

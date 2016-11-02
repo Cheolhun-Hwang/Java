@@ -1,0 +1,41 @@
+/**
+ * 파일명 : paxing.java
+ * 작성일 : 2016. 8. 3.
+ * 파일설명 :
+ */
+package Text;
+
+import java.io.*;
+
+public class paxing {
+
+	public void subDirList(String source) {
+		// TODO Auto-generated method stub
+		File dir=new File(source);
+		File[] FileList=dir.listFiles();
+		try{
+			for(int i = 0; i<FileList.length;i++){
+				File file = FileList[i];
+				if(file.isFile()){
+					//파일이 있으면
+					System.out.println("\t파일이름 = "+file.getName());
+				}else if(file.isDirectory()){
+					System.out.println("디렉토리 이름 = "+file.getName());
+					//서브디렉토리가 존재하면 재귀적 방법으로 다시 탐색
+					subDirList(file.getCanonicalPath().toString());
+				}
+			}
+		}catch(/*IO*/Exception e){
+			System.out.println("에러!!");
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		paxing sdf = new paxing();
+		String source = "C:\\Users\\qewqs\\Desktop\\crowling\\";
+		sdf.subDirList(source);
+
+	}
+
+}

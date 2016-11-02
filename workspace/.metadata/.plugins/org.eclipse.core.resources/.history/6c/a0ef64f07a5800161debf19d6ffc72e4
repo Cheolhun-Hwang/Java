@@ -1,0 +1,188 @@
+/**
+ * 파일명 : All_practice.java
+ * 작성일 : 2016. 7. 27.
+ * 파일설명 :
+ */
+package Text;
+
+/*import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;*/
+import java.io.*;
+
+//////////////////////////저장 및 sql 삽입을 위한 클래스/////////////////
+class Make_table{
+	///////////////////////
+	private String id;//작성자 아이디 : 스크롤링 타이틀부분
+	private String sex;//작성자 성별 : 스크롤링 본문
+	private String ages;//작성자 나이 : 스크롤링 본문
+	private String when_write;//작성 날짜 : 스크롱링 타이틀부분
+	//////////////////////
+	private String tema;//관광 테마 : 파일이름 34열
+	private String who_with; //동반 : 스크롱링 본문 친구, 연인, 가족
+	private String when_go;//여행날짜 : 스크롱링 본문
+	/////////////////////
+	private String sleep;//숙소 : 스크롱링 본문
+	private String transport;//교통 : 스크롱링 본문
+	private String food;//음식 : 스크롱링 본문
+	/////////////////////
+	private String city;//시/구 : 파일이름12열
+	private	String sort; //크롱링 분류 네이버/페이스북 등 : 현재 네이버 디폴트
+	private String person; //인원수 : 스크롤링
+	private String stay_long; //여행기간;
+	
+	
+	Make_table(){
+		this.id =""; 
+		this.sex =""; 
+		this.ages =""; 
+		this.when_write =""; 
+		//////////////////////
+		this.tema ="";	
+		this.who_with ="";
+		this.when_go =""; 
+		/////////////////////
+		this.sleep =""; 
+		this.transport =""; 
+		this.food =""; 
+		////////////////////
+		this.city=""; 
+		this.sort=""; 
+		this.person="";
+		this.stay_long="";
+	};
+	
+	public void setid(String sid){
+		this.id = sid;
+	}
+	public void getid(){
+		System.out.println(this.id);
+	}
+	public void setsex(String ssex){
+		this.sex = ssex;
+	}
+	public void setages(String sages){
+		this.ages = sages;
+	}
+	public void setwhen_write(String swhen_write){
+		this.when_write = swhen_write;
+	}
+	public void settema(String stema){
+		this.tema = stema;
+	}
+	public void setwho_with(String sww){
+		this.who_with = sww;
+	}
+	public void setwhen_go(String swg){
+		this.when_go = swg;
+	}
+	public void setsleep(String ssp){
+		this.sleep = ssp;
+	}
+	public void settransport(String stp){
+		this.transport = stp;
+	}
+	public void setfood(String sfood){
+		this.food = sfood;
+	}
+	public void setcity(String sct){
+		this.city = sct;
+	} 
+	public void setsort(String sst){
+		this.sort = sst;
+	}
+	public void setperson(String pst){
+		this.person = pst;
+	}
+	public void setstaylong(String ssl){
+		this.stay_long = ssl;
+	}
+}
+////////////////////////////////////////////////////////////
+///////////////////////디렉토리에서 파일을 읽기 위한 클라스/////////////////////
+public class All_practice {
+	
+	public void subDirList(String source) {
+		// TODO Auto-generated method stub
+		File dir=new File(source);
+		File[] FileList=dir.listFiles();
+		Make_table mtt = new Make_table();
+		try{
+			for(int i = 0; i</*FileList.length*/1;i++){
+				File file = FileList[i];
+				String path = ""+file;
+				System.out.println(path);
+				String file_name[] = path.split("crowling");
+				String sort_file = file_name[file_name.length-1].substring(1)
+				System.out.println(sort_file);
+				
+				wait(0);
+				if(file.isFile()){
+					//파일이 존재한다면 읽는다.
+					System.out.println("\t파일이름 = "+file.getName());
+					try {
+						String file_url = source + file.getName();
+						FileInputStream fin = new FileInputStream(file_url);
+						InputStreamReader inreader = new InputStreamReader(fin, "euc-kr");
+						BufferedReader breader = new BufferedReader(inreader);
+						//int s;
+						String s;
+						
+						while((s =/*inreader.read()*/ breader.readLine()) != /*-1*/ null){
+							//System.out.println(/*(char)*/s);
+							//이부분이  파일 내용을 반복해서 문장으로 읽어들이는 부분입니다.
+							if(s.indexOf("postViewArea")>-1){
+								System.out.println("\n text : " + s);
+								
+								
+								
+							}else{
+								String title_txt[] = s.split(", ");
+								System.out.println("제목 : " + title_txt[0]);
+								System.out.println("작성자 : " + title_txt[1].replace("\"", ""));
+								mtt.setid(title_txt[1].replace("\"", ""));
+								mtt.getid();
+								System.out.println("날짜 : " + title_txt[2].replace("\"", ""));
+								mtt.setwhen_write(title_txt[2].replace("\"", ""));
+							}
+							
+						}
+					
+					} catch (FileNotFoundException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch(IOException e){
+						e.printStackTrace();
+					}
+					
+					
+					
+				}else if(file.isDirectory()){
+					System.out.println("디렉토리 이름 = "+file.getName());
+					//서브디렉토리가 존재하면 재귀적 방법으로 다시 탐색
+					//subDirList(file.getCanonicalPath().toString());
+				}
+			}
+		}catch(/*IO*/Exception e){
+			System.out.println("에러!!");
+		}
+	}
+
+	/**
+	 * @return
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		All_practice sdf = new All_practice();
+		String source = "C:\\Users\\qewqs\\Desktop\\crowling\\";
+		sdf.subDirList(source);
+		
+		
+	}
+
+}
+//////////////////////////////////////////////////////////////////////////

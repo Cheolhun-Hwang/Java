@@ -1,0 +1,39 @@
+/**
+ * 파일명 : Crolling.java
+ * 작성일 : 2016. 7. 27.
+ * 파일설명 :
+ */
+package Text;
+
+import java.io.*;
+import java.net.*;
+
+public class Crolling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+	          //example.com은 연습으로 사용하기 위한 페이지이다. 간단한 페이지로 소스코드의 양도 적다.
+	            String urlstr = "http://blog.naver.com/PostList.nhn?blogId=qewqsa&widgetTypeCall=true&topReferer=http%3A%2F%2Fwww.naver.com%2F";
+	            //URL 문자열을 처리하기 위해 URL클래스를 이용한다.
+	            URL url = new URL(urlstr);
+
+	            //소스코드를 가져오기 위한 스트림을 선언한다.
+	            BufferedReader bf;
+	            String line;
+
+	      //URL클래스의 openStream()함수로 지정한 웹주소의 소스코드를 받아올 수 있다.
+	            bf = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"));
+
+	            while((line=bf.readLine())!=null){
+	                System.out.println(line);
+	            }
+
+	            //스트림을 닫아준다.
+	            bf.close();
+	        }catch(Exception e){
+	            System.out.println(e.getMessage());
+	        }
+	}
+
+}

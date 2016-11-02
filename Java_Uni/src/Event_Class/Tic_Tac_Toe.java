@@ -1,0 +1,63 @@
+package Event_Class;
+
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Tic_Tac_Toe extends JPanel implements ActionListener{
+
+	/**
+	 * @param args
+	 */
+	double A, B, C;
+	JButton[][] buttons = new JButton[3][3];
+	char[][] board = new char[3][3];
+	private char turn = 'X';			//차례를 정의하는 변수
+	
+	public Tic_Tac_Toe(){
+		setLayout(new GridLayout(3, 3, 5, 5));
+		Font f = new Font("Dialog", Font.ITALIC, 50);
+		
+		for(int i=0;i<3;i++){
+			for(int j = 0;j<3;j++){
+				buttons[i][j] = new JButton(" ");
+				buttons[i][j].setFont(f);
+				buttons[i][j].addActionListener(this);
+				add(buttons[i][j]);
+			}
+		}
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		for(int i = 0;i<3;i++){
+			for(int j=0;j<3;j++){
+				if(e.getSource() == buttons[i][j] && buttons[i][j].getText().equals(" ") == true){
+					if(turn == 'X'){						//클릭시 다음차례로 정의하도록 변수를 바꾼다.
+						buttons[i][j].setText("X");		//클릭시 버튼의 글자를 바꾼다.
+						turn = 'O';
+					}else{
+						buttons[i][j].setText("O");
+						turn = 'X';
+					}
+				}
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame f = new JFrame();
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f.add(new Tic_Tac_Toe());
+		f.setSize(300,300);
+		f.setVisible(true);
+	}
+
+}

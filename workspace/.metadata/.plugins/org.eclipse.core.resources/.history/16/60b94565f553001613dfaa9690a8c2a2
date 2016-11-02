@@ -1,0 +1,22 @@
+/**
+ * 파일명 : All_practice.java
+ * 작성일 : 2016. 7. 27.
+ * 파일설명 :
+ */
+package Text;
+
+/**
+ * @author qewqs
+ *
+ */
+public class All_practice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

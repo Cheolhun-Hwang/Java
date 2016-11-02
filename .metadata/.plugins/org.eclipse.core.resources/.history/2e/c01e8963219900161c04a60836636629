@@ -1,0 +1,20 @@
+package Week5;
+
+public class ColoredRectangle extends Rectangle {
+
+	/**
+	 * @param args
+	 */
+	
+	String color;
+	
+	public ColoredRectangle(int x, int y, int w, int h, String c){
+		super(x, y, w, h)
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
